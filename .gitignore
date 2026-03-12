@@ -1,0 +1,24 @@
+# Ignore everything by default
+*
+
+# Then allow only the pipeline files
+!.gitignore
+!README.md
+!AGENTS.md
+!CLAUDE.md
+!pipeline.md
+!pipeline_diagram.png
+
+# Prompt files
+!prompt_ideas.txt
+!review_eval_prompt.txt
+!pivot_prompt.txt
+!lit_review_prompt.txt
+!verify_lit_review_prompt.txt
+!final_verdict_prompt.txt
+!review_final_verdict_prompt.txt
+!idea_template.txt
+
+# Template folder (if created)
+!template/
+!template/**

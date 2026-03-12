@@ -1,0 +1,85 @@
+RESEARCH IDEA SUBMISSION
+========================
+
+IDEA TITLE:
+[One-line title for your research idea]
+
+PAPER TYPE: [Empirical / Theoretical / Methodological]
+
+RESEARCH QUESTION:
+[1-2 sentences. What specific question does this paper answer?]
+
+HYPOTHESIS / MECHANISM:
+[2-3 sentences. What is the proposed mechanism? What do you predict and why?
+State the expected sign or direction of your main result and what alternative
+explanations would predict differently.]
+
+---------- FOR EMPIRICAL PAPERS ----------
+
+IDENTIFICATION STRATEGY:
+[2-3 sentences. How will you establish causality? What is your source of
+exogenous variation? Name the specific shock, instrument, or natural experiment.
+If you don't have one yet, say so — the pipeline will help you find one.]
+
+DATA SOURCES:
+[List every dataset you plan to use. Be specific — name the database, the
+variables, and the sample period. Example:
+- CRSP Monthly Stock File (1970-2025): returns, market cap, share codes
+- Compustat Annual (1970-2025): book equity, assets, earnings
+- FRED: federal funds rate, term spread]
+
+PROPOSED REGRESSION:
+[Write out your main regression equation if possible. Example:
+Y_{i,t} = alpha + beta * Shock_{i,t} + gamma * X_{i,t-1} + FE_i + FE_t + epsilon
+If you're not sure yet, describe the empirical test in words.]
+
+---------- FOR THEORY PAPERS ----------
+
+MODEL SETUP:
+[2-3 sentences. What are the key agents, frictions, or market failures?
+What assumptions drive your results? Which assumptions are new vs. standard?]
+
+KEY PREDICTIONS:
+[List 2-3 testable predictions or comparative statics that distinguish your
+model from existing models. What does your model predict that others cannot?]
+
+RELATION TO EXISTING MODELS:
+[2-3 sentences. Which existing models are closest? What friction, agent, or
+market structure do you add/change? Why does this modification matter?]
+
+---------- FOR METHODOLOGY PAPERS ----------
+
+THE PROBLEM:
+[2-3 sentences. What existing empirical method fails, and in what setting?
+What bias, inconsistency, or limitation does your method address?]
+
+PROPOSED METHOD:
+[2-3 sentences. What is the new estimator, test, or procedure? What are its
+key properties (consistency, efficiency, robustness)?]
+
+DEMONSTRATION:
+[2-3 sentences. How will you show the method works? Monte Carlo simulations,
+analytical proofs, empirical application to a known setting? What existing
+results would change if researchers adopted your method?]
+
+---------- ALL PAPERS ----------
+
+CLOSEST PAPER 1:
+- Citation: [Authors, Year, Journal, Title]
+- URL: [Google Scholar or SSRN link]
+- How it relates: [1-2 sentences. What does this paper do, and how does your
+  idea differ? Be specific about the gap.]
+
+CLOSEST PAPER 2:
+- Citation: [Authors, Year, Journal, Title]
+- URL: [Google Scholar or SSRN link]
+- How it relates: [1-2 sentences]
+
+CLOSEST PAPER 3:
+- Citation: [Authors, Year, Journal, Title]
+- URL: [Google Scholar or SSRN link]
+- How it relates: [1-2 sentences]
+
+WHY THIS MATTERS:
+[1-2 sentences. Why should the field care? Policy relevance, theoretical
+implications, or practical impact.]

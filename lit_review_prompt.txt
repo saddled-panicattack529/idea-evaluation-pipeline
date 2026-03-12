@@ -1,0 +1,28 @@
+Below is my research idea targeting top 3 finance journals (or top 5 econ if appropriate). The student has already identified their 3 closest papers (listed below). Your job is to find papers they MISSED — immediate threats to novelty that are NOT already in their reference list.
+
+Please do the following:
+
+1. Threat Search: Identify papers that the student did NOT cite but that pose a direct threat to the idea's novelty. Focus on:
+   - Papers that test a very similar mechanism, even in a different setting
+   - Papers that use the same identification strategy on a related question
+   - Recent working papers (SSRN, NBER) that may be running the same race
+   - Papers from adjacent fields (econ, accounting, CS/ML) that could scoop or subsume the contribution
+   Remember: the goal is NOT to find broadly related literature, but to find the closest “competing papers” that the student has overlooked — papers that, if a referee cited them, would force a major revision or undermine the claimed contribution. Prioritize top 3 finance journals and top 5 econ journals, but include working papers if they are direct threats.
+
+2. Summarize & Cite: For each threat paper, provide:
+   - Full citation (authors, year, journal/outlet, title)
+   - URL (Google Scholar, SSRN, or publisher link — you MUST include a verifiable URL for every paper)
+   - 2-3 sentence summary of how it specifically threatens the student's idea
+   - Threat level: HIGH (directly overlaps mechanism + setting), MEDIUM (overlaps mechanism OR setting), LOW (tangential but a referee might raise it)
+
+   IMPORTANT: Do NOT fabricate citations. Every paper you cite must be one you found via web search with a real, verifiable URL. If you cannot find a URL for a paper, do not include it.
+
+3. Gap Analysis: Given both the student's 3 closest papers AND the new threats you found, assess:
+   - Is there still a clear gap, or has the space been closed?
+   - Which specific aspect of the idea survives as genuinely new?
+   - What is the single strongest “this is not just X applied to Y” argument?
+
+4. Defensive Recommendations: Suggest specific modifications to make the idea robust against the threats identified — how to frame, pivot, or sharpen the contribution so it cannot be dismissed as incremental.
+
+Organize your output under clear headings (e.g., 'Student's Cited Papers,' 'New Threat Papers,' 'Gap Analysis,' 'Defensive Recommendations') for ease of review.
+
